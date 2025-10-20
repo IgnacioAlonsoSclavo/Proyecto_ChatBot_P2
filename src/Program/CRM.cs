@@ -2,11 +2,49 @@
 
 public class CRM
 {
+    public static Dictionary<Vendedor, List<Cliente>> vendedorClientes = new Dictionary<Vendedor, List<Cliente>>();
+    public static List<IUsuario> listaDeClientes = new List<IUsuario>();
+    public static List<IUsuario> listaDeVendedores = new List<IUsuario>();
+    public static string Mensaje { get; set; }
     
     // Creo lista de mensajes (remitente, destinatario, mensaje)
     private static List<(IUsuario Remitente, IUsuario Destinatario, string Mensaje)> 
         mensajes = new List<(IUsuario, IUsuario, string)>();
 
+    //--Realiza un diccionario con los vendedores y su lista de clientes--//
+    public static void VendedorCliente(Vendedor vendedor)
+    { 
+        vendedorClientes.Add(vendedor, vendedor.Clientes);
+    }
+
+    public static void PrintVendedorCliente()
+    {
+        Console.WriteLine($"{vendedorClientes}");
+    }
+    //--------------------------------------------------------------------//
+    //--Realiza una lista de todos los vendedores registrados--//
+    public static void ListaDeClientes(Cliente unCliente)
+    {
+        listaDeClientes.Add(unCliente);
+    }
+
+    public static void PrintListaDeClientes()
+    {
+        Console.WriteLine($"{listaDeClientes}");
+    }
+    //---------------------------------------------------------//
+    //--Realiza una lista de todos los vendedores registrados--//
+    
+    public static void ListaDeVendedores(Vendedor unVendedor)
+    {
+        listaDeVendedores.Add(unVendedor);
+    }
+
+    public static void PrintListaDeVendedores()
+    {
+        Console.WriteLine($"{listaDeVendedores}");
+    }
+    //---------------------------------------------------------//
     // Metodo estatico para enviar un mensaje
     public static void SendMsg(IUsuario remitente,IUsuario destinatario, string msg)
     {
