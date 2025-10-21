@@ -1,4 +1,5 @@
-namespace DefaultNamespace;
+using DefaultNamespace;
+namespace Proyecto_ChatBot_P2;
 
 public class Vendedor: IUsuario
     {

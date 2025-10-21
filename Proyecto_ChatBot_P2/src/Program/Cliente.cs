@@ -1,4 +1,6 @@
-namespace a;
+using DefaultNamespace;
+
+namespace Proyecto_ChatBot_P2;
 
 public class Cliente : IUsuario
 {

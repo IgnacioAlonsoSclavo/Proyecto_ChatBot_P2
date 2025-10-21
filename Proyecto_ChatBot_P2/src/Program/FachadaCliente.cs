@@ -1,4 +1,4 @@
-﻿namespace EjemploClassCrm;
+﻿namespace Proyecto_ChatBot_P2;
 
 public class FachadaCliente
 {
