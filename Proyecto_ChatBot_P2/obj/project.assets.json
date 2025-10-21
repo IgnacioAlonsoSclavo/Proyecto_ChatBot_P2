@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Documentos\\GitHub\\PII_RoleplayGame_2_Start\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
+      "projectUniqueName": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
       "projectName": "Proyecto_ChatBot_P2",
-      "projectPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Documentos\\GitHub\\PII_RoleplayGame_2_Start\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
+      "projectPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
       "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Documentos\\GitHub\\PII_RoleplayGame_2_Start\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\obj\\",
+      "outputPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config"
