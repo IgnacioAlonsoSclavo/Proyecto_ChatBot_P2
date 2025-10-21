@@ -1,0 +1,15 @@
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\bin\Debug\net9.0\Proyecto_ChatBot_P2.exe
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\bin\Debug\net9.0\Proyecto_ChatBot_P2.deps.json
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\bin\Debug\net9.0\Proyecto_ChatBot_P2.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\bin\Debug\net9.0\Proyecto_ChatBot_P2.dll
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\bin\Debug\net9.0\Proyecto_ChatBot_P2.pdb
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.sourcelink.json
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.dll
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\refint\Proyecto_ChatBot_P2.dll
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.pdb
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\Proyecto_ChatBot_P2.genruntimeconfig.cache
+C:\Users\HP\Documents\GitHub\Proyecto_ChatBot_P2\Proyecto_ChatBot_P2\obj\Debug\net9.0\ref\Proyecto_ChatBot_P2.dll
