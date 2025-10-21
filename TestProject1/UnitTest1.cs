@@ -71,4 +71,45 @@ public class Tests
         CRM.ListaDeVendedores(unVendedor);
         Equals(CRM.listaDeVendedores.Count, 1);
     }
+    
+    [Test]
+    public void Test8_SendMsg_AgregaMensaje()
+    {
+        CRM.mensajes.Clear(); //borro de pruebas anteriores
+        Vendedor remitente = new Vendedor("Pan", "Flauta", "099999999", "pan@harina.com");
+        remitente.AñadirCliente(out Cliente unCliente, "celiaco", "n1", "911", "noquieropan@celiaco.com");
+        CRM.SendMsg(remitente, unCliente, "Mensaje de prueba");
+        Assert.That(CRM.mensajes.Count, Is.EqualTo(1));
+        Assert.That(CRM.mensajes[0].Remitente, Is.EqualTo(remitente));
+        Assert.That(CRM.mensajes[0].Destinatario, Is.EqualTo(unCliente));
+        Assert.That(CRM.mensajes[0].Mensaje, Is.EqualTo("Mensaje de prueba"));
+    }
+    
+    [Test]
+    public void Test9_VendedorCliente_AgregaDicc()
+    {
+        Vendedor vendedor = new Vendedor("Mario", "bros", "099123456", "mario@bros.com");
+        vendedor.AñadirCliente(out Cliente cliente, "ford", "falcon", "1998", "ford@falcon.com");
+        CRM.VendedorCliente(vendedor);
+        Assert.That(CRM.vendedorClientes.ContainsKey(vendedor));
+        Assert.That(CRM.vendedorClientes[vendedor].Count, Is.EqualTo(1));
+    }
+    [Test]
+    public void Test10_ListaDeClientes_AgregaCliente()
+    {
+        Vendedor vendedor = new Vendedor("pedro", "picamadera", "099123456", "pedro@madera.com");
+        vendedor.AñadirCliente(out Cliente cliente, "Pablo", "Torres", "098111111", "pablo@gmail.com");
+        CRM.ListaDeClientes(cliente);
+        Assert.That(CRM.listaDeClientes.Count, Is.EqualTo(1));
+        Assert.That(CRM.listaDeClientes[0], Is.EqualTo(cliente));
+    }
+    [Test]
+    public void Test11_ListaDeVendedores_AgregaVendedor()
+    {
+        Vendedor vendedor = new Vendedor("vendedor", "enojado", "666", "estoy@enojado.com");
+        CRM.ListaDeVendedores(vendedor);
+        Assert.That(CRM.listaDeVendedores.Count, Is.EqualTo(1));
+        Assert.That(CRM.listaDeVendedores[0], Is.EqualTo(vendedor));
+    }
+    
 }
