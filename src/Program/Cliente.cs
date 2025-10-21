@@ -2,6 +2,7 @@ namespace a;
 
 public class Cliente : IUsuario
 {
+    //Clase Cliente
     public string Name {get; set;}
     public string Surname { get; set; }
     public string numTelefono { get; set; }
