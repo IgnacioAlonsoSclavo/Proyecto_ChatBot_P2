@@ -10,7 +10,7 @@ public class CRM
     public static string Mensaje { get; set; }
     
     // Creo lista de mensajes (remitente, destinatario, mensaje)
-    private static List<(IUsuario Remitente, IUsuario Destinatario, string Mensaje)> 
+    public static List<(IUsuario Remitente, IUsuario Destinatario, string Mensaje)>
         mensajes = new List<(IUsuario, IUsuario, string)>();
 
     //--Realiza un diccionario con los vendedores y su lista de clientes--//

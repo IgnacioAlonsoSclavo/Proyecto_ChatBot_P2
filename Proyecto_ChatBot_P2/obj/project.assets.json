@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\super\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
       "projectName": "Proyecto_ChatBot_P2",
-      "projectPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
-      "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\super\\OneDrive - Universidad Católica del Uruguay\\Escritorio\\solucion\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Proyecto_ChatBot_P2\\Proyecto_ChatBot_P2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\HP\\.dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
